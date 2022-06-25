@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  box-sizing: border-box;
+  color: rgb(33, 37, 41);
+  text-size-adjust: 100%;
+}
+
+.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+  linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+  linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+  radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+  radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  width: 100vw;
+  }
+
+section{
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: start;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.container{
+  height: 100vh;
+  line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 24.8px;
+    margin-right: 24.8px;
+    margin-top: 0px;
+    padding-bottom: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 48px;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.card{
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgba(0, 0, 0, 0.176);
+    border-radius: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0.176);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.176);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.176);
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.card-content{
+    box-sizing: border-box;
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-wrap: break-word;
+    padding: 48px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+h3{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  form{ 
+    align-items: center;
+    color:  rgb(33, 37, 41);
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+.form-input{
+    box-sizing: border-box;
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 38px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgb(13, 202, 240);
+}
+
+.add-item{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px;
+    margin-bottom: .5rem!important;
+    border-radius: 6px;
+    align-self: center;
+    line-height: 1rem;
+  }
+  
+  .close:hover {
+    background-color: rgb(13, 202, 240);
+    color: white;
+  }
+
+.button{
+      align-items: flex-start;
+      background-color: rgb(13, 202, 240);
+      border-color: rgb(13, 202, 240);
+      box-sizing: border-box;
+      cursor: pointer;
+      display: block;
+      height: 38px;
+      line-height: 24px;
+      margin-left: 8px;
+      overflow-wrap:break-word;
+      padding: 6px 12px;
+      text-align: center;
+      border-radius: 0.375rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      user-select: none;
+    }
+    .addBtn {
+      display: flex;
+      padding: 10px;
+      width: 25%;
+      background: #d9d9d9;
+      color: #555;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .addBtn:hover {
+      background-color: #bbb;
+    }
+
+  .items{
+    box-sizing: border-box;
+    display: block;
+    line-height: 24px;
+    margin: 0px;
+    overflow-wrap: break-word;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  ul{
+    padding: 6px;
+  }
+
+li {
+    position: relative;
+    text-decoration: none;
+    background-color: #f4f6f7;
+    display: flex !important;
+    flex-direction: column;
+    margin-bottom: .5rem!important;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 8px 16px;
+    text-size-adjust: 100%;
+    text-align: start;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgb(13, 202, 240);
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+  background: #eee;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+}
+
